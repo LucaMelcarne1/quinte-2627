@@ -79,7 +79,7 @@ flowchart TD
     B -->|No ❌| E["🏁 Fine: continua col resto del programma"]
     style A fill:#2ea043,color:#fff
     style E fill:#d73a49,color:#fff
-
+```
 ```php
 <?php
 // Ciclo for: "ripeti 5 volte"
