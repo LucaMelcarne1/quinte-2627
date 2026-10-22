@@ -1,0 +1,35 @@
+# 🙈 File che Git deve fare finta di non vedere
+
+# --- Configurazioni con password / dati sensibili ---
+.env
+config.local.php
+*.local.php
+
+# --- Dipendenze e cache ---
+vendor/
+node_modules/
+*.cache
+
+# --- Log ed errori ---
+*.log
+error_log
+php_errors.log
+
+# --- Dump e database locali ---
+*.sqlite
+*.sql.bak
+*.dump
+
+# --- File dell'editor e del sistema operativo ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Upload di prova e file temporanei ---
+uploads/
+tmp/
+*.tmp
+*.bak
